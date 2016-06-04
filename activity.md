@@ -40,7 +40,7 @@ onDestroy()
 This method is used to free the memory .
 This is called when we press the back button and doing so close the App.
 
-https://raw.githubusercontent.com/Ankitkapoor4986/android_blog_explain/master/activity_lifecycle.png
+![Alt text](./activity_lifecycle.png)
 
 
 Following is the example of a  simple activity
