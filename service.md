@@ -1,4 +1,5 @@
-Service->
+Service
+------
 
 Services are the building blocks that are used for running the background tasks.
 e.g When we want to run the music in a background .
@@ -7,19 +8,19 @@ Please note that the task that service runs are run in the main thread.
 
 Following are the main methods of service
 
-void onCreate()  
+**void onCreate()**  
 
 Called when it is called for the first time
 
-onStartCommand()
+**onStartCommand()**
 
 Called when the service is started everytime.
 
-onDestroy()
+**onDestroy()**
 
 Called when the service is terminated.
 
-onBind()
+**onBind()**
 
 Called when binded service is used will discuss it later.
 
@@ -27,7 +28,7 @@ Called when binded service is used will discuss it later.
 ![Alt text](./service_life_cycle.png)
 
 
-
+```java
 package com.example.com.myapplication.service;
 import android.app.Service;
 import android.content.Intent;
@@ -57,7 +58,7 @@ public class FirstService extends Service {
         Log.d(TAG, "On Destroy called");
     }
 }
-
+```
 
 Note that to start the service we need to call the startService(Intent intent) method and to stop the service we need to call stopService(Intent intent) method .
 
