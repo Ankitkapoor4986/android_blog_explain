@@ -58,3 +58,6 @@ Some more concepts in Android is explained below
 Intent->Intent are objects which acts as a glue between different components.Through intent we can pass the control from one compoment to another
 
 Now here is the detailed discription of the main building blocks
+
+[Activity](./activity.md)
+[Service](./service.md)
