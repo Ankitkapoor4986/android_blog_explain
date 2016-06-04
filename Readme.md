@@ -7,11 +7,13 @@ An android app consist of xml and java where an xml is mostly like a helper to s
 In Android Java gets compiled into .class files which are parsed and converted into .dex (Dalvik Executable Code) which gets combined with xml and forms .apk file.This .apk file runs into Dalvik
 Virtual Machine.
 
-Note: Google Introduced Dalvik because of 2 reasons 
+Note: Google Introduced Dalvik because of 2 reasons
 1.DVM is more efficient in terms of saving the battery
 2.There will be no cost of licencing the DVM which was there when we hve to use JVM.
 
 
 Following is the basic structure of Android App
+
+https://raw.githubusercontent.com/Ankitkapoor4986/android_blog_explain/master/workspace.png
 
 https://github.com/Ankitkapoor4986/android_blog_explain/blob/master/workspace.png
