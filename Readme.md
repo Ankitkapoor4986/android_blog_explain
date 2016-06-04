@@ -14,4 +14,4 @@ Note: Google Introduced Dalvik because of 2 reasons
 
 Following is the basic structure of Android App
 
-(/workapace)
+https://github.com/Ankitkapoor4986/android_blog_explain/blob/master/workspace.png
