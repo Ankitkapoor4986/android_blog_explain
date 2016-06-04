@@ -24,7 +24,7 @@ onBind()
 Called when binded service is used will discuss it later.
 
 
-![Alt text](./service_lifecycle.png)
+![Alt text](./service_life_cycle.png)
 
 
 
