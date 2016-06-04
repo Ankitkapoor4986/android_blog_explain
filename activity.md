@@ -45,9 +45,10 @@ This is called when we press the back button and doing so close the App.
 
 Following is the example of a  simple activity
 
-https://raw.githubusercontent.com/Ankitkapoor4986/android_blog_explain/master/activity_code.png
+![Alt text](./activity_code.png)
 
-https://raw.githubusercontent.com/Ankitkapoor4986/android_blog_explain/master/activity_code_cont.png
+![Alt text](./activity_code_cont.png)
+
 
 The above code is explained as below
 
