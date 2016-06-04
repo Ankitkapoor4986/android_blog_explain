@@ -4,7 +4,7 @@ This is conceded as a screen in Android world which have some specified methods 
 
 Main methods of an activity are
 
-void onCreate(Bundle savedInstanceState)
+**void onCreate(Bundle savedInstanceState)**
 
 This method is called once in the lifecycle of an activity which is the initialization method.
 
@@ -35,7 +35,7 @@ This method is called whenever a we are moving form the current activity.Whether
 
 This is called just before the onStop method.
 
-onDestroy()
+**onDestroy()**
 
 This method is used to free the memory .
 This is called when we press the back button and doing so close the App.
@@ -53,17 +53,21 @@ Following is the example of a  simple activity
 The above code is explained as below
 
 *24 setContentView(R.layout.new_activity_layout);*
+
 The above line is the main line which sets the layout of the Activity and link it to the activity basically this line sets the contents from xml to code
 
 *25 textView = (EditText) findViewById(R.id.edit_text_id);*
+
 The above line is used to get any view component's reference in the code  
 
 *From line 26 to 28 we are initalizing a button onClick listener and setting it*
+
 26 ButtonClickListener<MainActivity> buttonClickListenerBackButton =
         new ButtonClickListener<>(textView, this, MainActivity.class);
 28 findViewById(new_activity_back_button).setOnClickListener (buttonClickListenerBackButton);
 
 
- *41 String text = getIntent().getStringExtra(Constants.TEXT_VAL);*
+*41 String text = getIntent().getStringExtra(Constants.TEXT_VAL);*
+
 
  In above line getIntent() method gets the intent which calls the Activity.Through getStringExtra we get the value which is passed through intent

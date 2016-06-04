@@ -9,6 +9,7 @@ In Android Java gets compiled into .class files which are parsed and converted i
 Virtual Machine.
 
 **Note: Google Introduced Dalvik because of 2 reasons**
+
 1.DVM is more efficient in terms of saving the battery
 2.There will be no cost of licencing the DVM which was there when we hve to use JVM.
 
@@ -39,15 +40,25 @@ Src->main->res->AndroidMenifest.xml->This xml holds the permissions and list of 
 
 Now coming to the  main building blocks of Android system
 
-Activity ->Can be reffered to as a screen in the operating system.
+*Activity*
 
-Service ->This is used to run the background task .They mostly run in main thread however there are special type of services which run in different thread.
+Can be reffered to as a screen in the operating system.
 
-BroadCast Receivers ->These are the receivers which receive on different events i.e they can act like a callback to different events e.g system starting up
+*Service*
 
-Application Objects ->This is the main object which holds the application level values .
+This is used to run the background task .They mostly run in main thread however there are special type of services which run in different thread.
 
-Content Providers ->These are the building blocks which are used to share the data between the Apps e.g list of songs gets shared between the VLC player and Android default music player.This is possible because of Content Providers only
+*BroadCast Receivers*
+
+These are the receivers which receive on different events i.e they can act like a callback to different events e.g system starting up
+
+*Application Objects*
+
+This is the main object which holds the application level values .
+
+*Content Providers*
+
+These are the building blocks which are used to share the data between the Apps e.g list of songs gets shared between the VLC player and Android default music player.This is possible because of Content Providers only
 
 All the main building blocks have some specified methods which are run by the Android system and  all the building blocks have to be listed in AndroidManifest.xml
 
@@ -56,9 +67,12 @@ Internally android system uses Observer pattern
 
 Some more concepts in Android is explained below
 
-Intent->Intent are objects which acts as a glue between different components.Through intent we can pass the control from one compoment to another
+*Intent*
+
+Intent are objects which acts as a glue between different components.Through intent we can pass the control from one compoment to another
 
 Now here is the detailed discription of the main building blocks
 
-[Activity](./activity.md)
-[Service](./service.md)
+
+* [Activity](./activity.md)
+* [Service](./service.md)

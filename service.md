@@ -69,7 +69,7 @@ IntentService is used to run the task in a differrnt thread where starting and s
 
 There basically used for long running operations which are not good to run on the main thread.
 
-The main method which you need to write for the IntentService is
+The main method which you need to write for the *IntentService* is
 
 void onHandleIntent(Intent intent){
 
