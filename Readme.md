@@ -14,7 +14,7 @@ Virtual Machine.
 
 
 Following is the basic structure of Android App
-[!Alt Text](./workspace.png)
+![Alt Text](./workspace.png)
 
 
 
