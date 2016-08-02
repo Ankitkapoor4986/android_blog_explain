@@ -39,7 +39,7 @@ This method is called as a callback  method of onBind
 
 This method is called as a callback method of onUnbind 
 
-2. ***Ibinder***
+2 . ***Ibinder***
 
 This act as a glue between the onBind of Service and onServiceConnect where it is passed as a parameter in onService connect and is returned by onBind
 
