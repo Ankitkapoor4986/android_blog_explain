@@ -36,7 +36,7 @@ Src->main->res->values->string.xml->Contains the String Constants of the applica
 
 Src->main->res->values->dimens.xml->Contains the dimention for the activity
 
-Src->main->res->AndroidMenifest.xml->This xml holds the permissions and list of all the main building blocks
+Src->main->res->AndroidManifest.xml->This xml holds the permissions and list of all the main building blocks
 
 
 Now coming to the  main building blocks of Android system
