@@ -65,7 +65,7 @@ Note that to start the service we need to call the startService(Intent intent) m
 
 There are other type of service also one of which is IntentService
 
-IntentService is used to run the task in a differrnt thread where starting and stoping of thread is managed by the android system only.
+IntentService is used to run the task in a different thread where starting and stoping of thread is managed by the android system only.
 
 There basically used for long running operations which are not good to run on the main thread.
 
