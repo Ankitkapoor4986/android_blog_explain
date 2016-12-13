@@ -11,7 +11,7 @@ Virtual Machine.
 **Note: Google Introduced Dalvik because of 2 reasons**
 
 1. DVM is more efficient in terms of saving the battery
-2. There will be no cost of licencing the DVM which was there when we hve to use JVM.
+2. There will be no cost of licencing the DVM which was there when they have to use JVM.
 
 
 Following is the basic structure of Android App
